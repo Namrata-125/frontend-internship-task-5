@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Namrata's Single Page Application portfolio built with HTML, CSS and JavaScript."
+    >
+
+    <title>Namrata | SPA Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header class="header">
+        <nav class="navbar" aria-label="Main navigation">
+
+            <a href="/" class="logo" data-route="home">
+                Namrata
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="/home" data-route="home" class="nav-link">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/about" data-route="about" class="nav-link">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/skills" data-route="skills" class="nav-link">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/projects" data-route="projects" class="nav-link">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="/contact" data-route="contact" class="nav-link">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <button
+                class="theme-toggle"
+                id="themeToggle"
+                type="button"
+                aria-label="Toggle dark mode"
+            >
+                🌙
+            </button>
+
+        </nav>
+    </header>
+
+
+    <!-- Main SPA Container -->
+    <main id="app" class="app-container">
+
+        <!-- JavaScript will dynamically insert page content here -->
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>
+            © 2026 Namrata. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
